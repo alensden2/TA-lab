@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = 80; // You can use any available port
+const port = 3000; // You can use any available port
 
 // Middleware to parse JSON data in the request body
 app.use(bodyParser.json());
